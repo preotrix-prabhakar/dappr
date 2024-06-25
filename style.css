@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    background: white;
+}
+.navbar{
+    background-color: #6F6AF7;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    margin: 5px;
+  
+}
+.g1{
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+}
+.items{
+    display: flex;
+    font-family: DM Sans;
+    /* width: 50vw; */
+
+}
+.items img{
+    background-color: white;
+}
+.name{
+    font-weight: 700;
+    font-family: Delius Unicase;
+    font-size: 2em;
+    /* width: 20vw; */
+    color: white;
+
+}
+.navbar li{
+    height: 20%;
+    margin: 10px;
+}
+#drop{
+    width: 10%;
+}
+.g1-content{
+color: #6F7373;
+background-color: #E5D8FF;
+border-radius: 20px;
+padding: 15px;
+width: 70%;
+font-family: DM Sans;
+}
+.g1-image{
+    width: 30%;
+}
+.g1-image img{
+    width:90%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.B{
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    margin: 20px;
+    
+}
+.B button{
+    padding: 15px;
+    padding-right: 50px;
+    border-radius: 5px;
+    text-align: left;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.b1{
+    background-color: #929DFF;
+}
+.b2{
+    background-color: #734CF2;
+}
+select{
+    background-color: transparent;
+    border: none;
+}
+.b3{
+    background-color: #D288FF;
+    border-color: none;
+}
+.b4{
+    background-color: black;
+}
+.g3{
+    background-color:#483EFF;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    border-radius: 12px;
+    position: relative;
+}
+.card{
+    border: 2px solid white;
+    background-color: #483EFF;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    margin: 10px;
+}
+.one{
+    background-color: #BCE0F6;
+    color: black;
+}
+.g2{
+    padding: 20px 10px;
+}
+.g3-left{
+    padding: 12px;
+}
+.g3-right{
+    padding: 10px;
+    padding-top: 20px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    color: #04285A;
+    border-radius: 12px;
+    width: 100%;
+
+}
+.g3-right span{
+    color: #04285A;
+    margin-left: 20px;
+}
+#next{
+    right:20px;
+    bottom: 20px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: black;
+}.main{
+    padding: 20px;
+}
+.vector img{
+ height: 30px;
+}
+
+input{
+    border-radius: 10px;
+    background-color: white;
+    margin-right: -8px;
+}
+.social{
+    position: sticky;
+    top: 80px;
+    margin-top:25vh;
+    float: right;
+
+}
+.social img{
+    height: 40px;
+    display: block;
+    width: fit-content;
+}
+.help{
+    background-color: white;
+    border-radius: 100%;
+    position: fixed;
+    right: 60px;
+    bottom: 20px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    width: 50px;
+    height: 50px;
+
+}
+
+.help img{
+    width: 50px;
+    height: 50px;
+}
+
